@@ -72,3 +72,9 @@ To run the project in development mode with hot reloading and a local server:
 npm run build
 ```
 This command will generate optimized and minified files within the dist/ folder. These files can then be deployed to any static web server for public access.
+
+### 6. **project launch**
+
+```bash
+npm start
+```
