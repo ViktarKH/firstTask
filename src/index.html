@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Ad Unit</title>
+</head>
+
+<body>
+
+    <div id="app" class="app-container">
+        <section id="intro-scene" class="scene intro-scene active">
+            <img src="./assets/headline.png" alt="Product Headline" class="intro-headline">
+        </section>
+
+        <section id="gallery-scene" class="scene gallery-scene hidden">
+            <div class="gallery-wrapper">
+                <div class="swiper-container product-gallery">
+                    <div class="swiper-wrapper">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <img src="./assets/cta.png" alt="Call to Action Button" class="cta-button">
+        </section>
+
+        <section id="video-scene" class="scene video-scene hidden">
+            <video id="product-video" class="product-video-player" loop muted playsinline>
+                <source src="./assets/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <div id="orientation-lock-message" class="orientation-message hidden">
+            <p>Please rotate your device to portrait orientation.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
